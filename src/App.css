@@ -12,4 +12,18 @@ body {
 	margin: 0 auto;
 	font-size: 1.6rem;
 	border: 1px solid;
+	font-family: "Inter", sans-serif;
+	height: 100vh;
+}
+
+.navbar {
+	background: rgba(245, 90, 90, 1);
+	padding: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	column-gap: 6px;
+	font-size: 1.4rem;
+	font-weight: 500;
+	color: rgba(255, 255, 255, 1);
 }
