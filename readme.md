@@ -6,4 +6,4 @@
 -   [ ] Semantics
 -   [ ] Tile Component
 -   [ ] arr mapping
--   [ ] Styling
+-   [ ] Styling - BEM(block--element- modifier)

@@ -5,15 +5,15 @@
 
 html {
 	font-size: 62.5%;
+	height: 100vh;
 }
 
 body {
-	max-width: 128rem;
+	max-width: 55rem;
 	margin: 0 auto;
 	font-size: 1.6rem;
-	border: 1px solid;
 	font-family: "Inter", sans-serif;
-	height: 100vh;
+	border: 1px solid rgba(245, 245, 245, 1);
 }
 
 .navbar {
@@ -26,4 +26,30 @@ body {
 	font-size: 1.4rem;
 	font-weight: 500;
 	color: rgba(255, 255, 255, 1);
+}
+
+.navbar--logo {
+	width: 2.4rem;
+	height: 2.4rem;
+}
+
+.cards {
+	padding: 1.8rem;
+}
+
+.card {
+	padding: 4.5rem 4rem;
+	display: flex;
+	column-gap: 2rem;
+}
+
+.card:not(:last-child) {
+	border-bottom: 1px solid rgba(245, 245, 245, 1);
+}
+
+.card--image {
+	max-width: 12.5rem;
+	aspect-ratio: 1/1;
+	width: 100%;
+	border-radius: 5px;
 }

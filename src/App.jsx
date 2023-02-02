@@ -1,5 +1,5 @@
 import "./App.css";
-import Tile from "./components/Tile";
+import Card from "./components/Card";
 import Navbar from "./components/Navbar";
 import travelData from "../travel-data.js";
 
@@ -8,7 +8,11 @@ function App() {
 	return (
 		<>
 			<Navbar />
-			<Tile />
+			<div className="cards">
+				{travelData.map((item) => {
+					return <Card key={item.id} {...item} />;
+				})}
+			</div>
 		</>
 	);
 }

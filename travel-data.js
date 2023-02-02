@@ -20,7 +20,7 @@ export default [
 			"https://goo.gl/maps/5CXgqXxFhiVGdBdU8",
 		startDate: "10 Jan, 2023",
 		endDate: "20 Jan 2023",
-		description: ``,
+		description: `Shree Salasar Balaji Temple in India is an important religious place for Hanuman-devotees. Shree Salasar Balaji Temple is located in Churu district of Rajasthan and attracts innumerable devotees throughout the year. This is the only temple of Hanuman ji in India, which has the beard and moustache.`,
 	},
 	{
 		id: "03",
@@ -31,6 +31,6 @@ export default [
 			"https://goo.gl/maps/GnWpWt9yQTCK4V4y9",
 		startDate: "03 Sep, 2022",
 		endDate: "07 Sep 2022",
-		description: ` `,
+		description: `The Statue of Unity is the world's tallest statue, with a height of 182 metres, located near Kevadia in the state of Gujarat, India. It depicts Indian statesman and independence activist Vallabhbhai Patel, who was the first deputy prime minister and home minister of independent India`,
 	},
 ];

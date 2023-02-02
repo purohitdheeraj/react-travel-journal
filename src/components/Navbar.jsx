@@ -4,10 +4,10 @@ import globeIcon from "../assets/globe.svg";
 function navbar() {
 	return (
 		<nav className="navbar">
-			<span className="navbar-logo">
+			<span className="navbar--logo">
 				<img src={globeIcon} alt="globe" />
 			</span>
-			my travel journal
+			my travel journal.
 		</nav>
 	);
 }
