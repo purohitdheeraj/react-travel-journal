@@ -24,9 +24,11 @@ function Card(props) {
 					{props.title}
 				</h2>
 
-				<strong className="card--info-date">
-					{props.startDate}- {props.endDate}
-				</strong>
+				<p className="card--info-date">
+					<strong>
+						{props.startDate}- {props.endDate}
+					</strong>
+				</p>
 
 				<p className="card--info-description">
 					{props.description}

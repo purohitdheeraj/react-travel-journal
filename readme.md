@@ -3,7 +3,7 @@
 -   [x] Data.js
 -   [x] Basic Css + Component
 -   [x] Header Component
--   [ ] Semantics
--   [ ] Tile Component
--   [ ] arr mapping
--   [ ] Styling - BEM(block--element- modifier)
+-   [x] Semantics
+-   [x] Tile Component
+-   [x] arr mapping
+-   [x] Styling - BEM(block--element- modifier)
